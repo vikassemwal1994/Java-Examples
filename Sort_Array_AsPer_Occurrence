@@ -53,6 +53,14 @@ public class Sort_Array_AsPer_Occurrence {
 
         System.out.println("sorted 2D array as per occurance : ");
         System.out.println(Arrays.deepToString(number_array_2d));
+        
+        System.out.println("number array as per occurance : ");
+        for (int i = 0; i <= x; i++) {
+            for (int j = 0; j < number_array_2d[i][1]; j++) {
+                System.out.print(number_array_2d[i][0]+", ");
+
+            }
+        }
 
     }
 
