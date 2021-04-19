@@ -4,7 +4,7 @@ Some java codes to help in critical concepts
 
 1. Filename : Sort_Array_AsPer_Occurrence
 2. Mobile info : get mobile ip and mac address
-3. VerhoeffAlgorith : validate adhaar number -- 
+3. VerhoeffAlgorith : validate adhaar number call by function -- 
     public static boolean validateAadharNumber(String aadharNumber) {
         Pattern aadharPattern = Pattern.compile("\\d{12}");
         boolean isValidAadhar = aadharPattern.matcher(aadharNumber).matches();
